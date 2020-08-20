@@ -16,3 +16,15 @@ func Write404(w http.ResponseWriter) {
 		w.Write([]byte("Oops, something went seriously wrong"))
 	}
 }
+
+// Write401 ...
+func Write401(w http.ResponseWriter) {
+	t, err := template.New("401").Parse(page401)
+	if err != nil {
+		w.Write([]byte("Oops, something went seriously wrong!"))
+	}
+	err = t.ExecuteTemplate(w, "401", nil)
+	if err != nil {
+		w.Write([]byte("Oops, something went seriously wrong"))
+	}
+}
