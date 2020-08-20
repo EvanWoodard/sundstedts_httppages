@@ -16,8 +16,8 @@ const page404 string = `
         <div class="logo"><img src="shared/img/android-chrome-512x512.png" /></div>
         <div class="title">The Sundstedt's</div>
         <div class="spacer"></div>
-        <form class="logout_form" action="https://iam.sundstedt.us/logout" method="POST">
-            <input id="logout_redirect" type="hidden" name="redirect" value="https://evenson.sundstedt.us/">
+        <form class="redirect-form" action="https://iam.sundstedt.us/logout" method="POST">
+            <input id="home_redirect" type="hidden" name="redirect" value="https://evenson.sundstedt.us/">
             <button class="btn login-btn" type="submit">Home</button>
         </form>
     </div>
