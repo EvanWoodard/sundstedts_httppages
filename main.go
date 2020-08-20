@@ -7,7 +7,7 @@ import (
 
 // Write404 ...
 func Write404(w http.ResponseWriter) {
-	t, err := template.ParseFiles("404.gohtml")
+	t, err := template.ParseFiles(page404)
 	if err != nil {
 		w.Write([]byte("Oops, something went seriously wrong!"))
 	}
