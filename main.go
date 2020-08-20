@@ -1,4 +1,4 @@
-package errorpage
+package errors
 
 import (
 	"html/template"
