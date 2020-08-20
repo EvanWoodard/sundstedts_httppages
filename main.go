@@ -1,4 +1,4 @@
-package errors
+package httppages
 
 import (
 	"html/template"
