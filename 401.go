@@ -8,8 +8,9 @@ const page401 string = `
     <title>Sundstedt's - 401</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link href="shared/css/theme.mobile.css" rel="stylesheet" >
-    <link href="shared/css/theme.css" rel="stylesheet" >
+    <link href="shared/css/theme.light.css" rel="stylesheet">
+    <link href="shared/css/mobile.css" rel="stylesheet">
+    <link href="shared/css/standard.css" rel="stylesheet">
 </head>
 <body>
     <div class="topbar">
