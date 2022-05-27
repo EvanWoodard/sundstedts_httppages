@@ -1,3 +1,3 @@
 module github.com/EvanWoodard/sundstedts_httppages
 
-go 1.14
+go 1.16
